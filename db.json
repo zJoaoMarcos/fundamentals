@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": "c88253d0-6141-4f56-9a49-d5b65f5be8d7",
+      "name": "João Matos",
+      "email": "joao@email.com"
+    },
+    {
+      "id": "571df7bd-49fb-4bec-827f-1fb0714c26fc",
+      "name": "Jonas",
+      "email": "jonas@email.com"
+    }
+  ]
+}
