@@ -28,12 +28,12 @@ async function run() {
       }),
     });
 
-    await wait(1000);
+    await brake(1000);
   }
 }
 
 run();
 
-function wait(ms) {
+function brake(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
