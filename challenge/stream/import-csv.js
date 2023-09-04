@@ -27,7 +27,13 @@ async function run() {
         description,
       }),
     });
+
+    await wait(1000);
   }
 }
 
 run();
+
+function wait(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
